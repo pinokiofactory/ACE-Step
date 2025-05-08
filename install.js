@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/SUP3RMASS1VE/ACE-Step-FORK app",
+          "git clone https://github.com/ace-step/ACE-Step app",
         ]
       }
     },
