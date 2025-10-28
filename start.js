@@ -8,7 +8,7 @@ module.exports = {
         env: { },                   // Edit this to customize environment variables (see documentation)
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
-          "acestep --checkpoint_path checkpoint --port 7865"    // Edit with your custom commands
+          "acestep --torch_compile true --cpu_offload true --overlapped_decode true"    // Edit with your custom commands
         ],
         on: [{
           // The regular expression pattern to monitor.
