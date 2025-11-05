@@ -10,6 +10,7 @@ module.exports = {
         "path": "{{args && args.path ? args.path : '.'}}",
         "message": [
           "uv pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 {{args && args.xformers ? 'xformers' : ''}} --index-url https://download.pytorch.org/whl/cu128",
+          "uv pip install torchcodec==0.8.1",
           "uv pip install triton-windows==3.3.1.post19"
         ]
       },
@@ -25,6 +26,7 @@ module.exports = {
         "path": "{{args && args.path ? args.path : '.'}}",
         "message": [
           "uv pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 {{args && args.xformers ? 'xformers' : ''}} --index-url https://download.pytorch.org/whl/cu128",
+          "uv pip install torchcodec==0.8.1",
           "uv pip install triton"
         ]
       },
