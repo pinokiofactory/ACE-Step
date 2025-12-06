@@ -16,8 +16,9 @@ module.exports = {
         venv: "env",                // Edit this to customize the venv folder path
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
-          "uv pip install gradio torch",
-          "uv pip install -e ."
+          "uv pip install -e .",
+          "uv pip install gradio==5.50.0",
+          "uv pip install peft==0.17.1"
         ]
       }
     },
